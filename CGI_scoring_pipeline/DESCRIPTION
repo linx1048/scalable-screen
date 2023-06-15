@@ -1,0 +1,26 @@
+Package: orobas
+Title: Scoring Chemogenomic CRISPR Screens
+Version: 0.5.0
+Authors@R: person("Henry", "Ward", email = "henry.neil.ward@gmail.com", role = c("aut", "cre"))
+Description: Package for processing, scoring and analyzing chemogenomic CRISPR screens.
+Depends: R (>= 3.6)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  ggplot2,
+	ggthemes,
+	ggrepel,
+	limma,
+	pheatmap,
+	PRROC,
+	RColorBrewer,
+	dplyr,
+	forcats,
+	magrittr
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
